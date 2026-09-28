@@ -1,0 +1,33 @@
+# Environments and Python caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+# Local settings, credentials, and analysis output
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.scannerwork/
+*.log
+.DS_Store
+Thumbs.db
+# Recordings and generated data
+screencast/
+sorted_images/
+downloaded_images/
+*_files.txt
+xss_report_*.txt
+primarch_data.json
+data.json
+temp_downloads/
